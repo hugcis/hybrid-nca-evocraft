@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "evo_ca"
+version = "0.1.0"
+description = ""
+authors = ["hugcis <hmj.cisneros@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+jupyterlab = "^3.0.15"
+torch = "^1.8.1"
+numpy = "^1.20.3"
+matplotlib = "^3.4.2"
+grpcio = "^1.37.1"
+google = "^3.0.0"
+protobuf = "^3.17.0"
+moviepy = "^1.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
