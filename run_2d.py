@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import sys
 import pickle
 
 import numpy as np
@@ -11,9 +12,8 @@ from evo_ca.utils import spawn_state_nca, get_state_nca, CLIENT, Blocks
 STEPS=2
 
 ca = NCAModel()
-
-weights = pickle.load(open("training_data_2d/gorilla_giraffe_trex_cat_2seeds/\
-60000.checkpoint.pkl", "rb"))
+fname = sys.argv[1]
+weights = pickle.load(open(fname, "rb"))
 
 list(ca.dmodel.children())[1].weight = nn.Parameter(
     torch.moveaxis(torch.Tensor(weights[0]), (2, 3), (1, 0)))

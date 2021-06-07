@@ -16,6 +16,10 @@ growth rules learned by the NCA, which can be unpredictable and surprising.
 The repository contains link to pre-trained models in 2D and 3D as well as Colab
 notebooks links to train you own NCA. 
 
+The current codebase is very simplistic and therefore not very usable, because
+that's only what I needed to run my experiments and try several things. I plan
+to make it more usable in the near future.
+
 ## Usage
 
 Make sure you have the right Python packages installed. The project uses Poetry,
