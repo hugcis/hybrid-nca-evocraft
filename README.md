@@ -33,8 +33,9 @@ started with `java -jar spongevanilla-1.12.2-7.3.0.jar`.
 
 The Pytorch models are defined in `evo_ca/models.py`.
 
-To run a 2D model in Minecraft, use `python run_2d.py`. For a 3D version use
-`python run_3d.py`.
+To run a 2D model in Minecraft, use `python run_2d.py <PATH>`. For a 3D version
+use `python run_3d.py <PATH>`, replacing `<PATH>` with a path to your model
+weights.
 
 ## Model weights
 ### Pre-trained models

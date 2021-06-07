@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import sys
 import pickle
 
 import numpy as np
@@ -11,8 +12,8 @@ from evo_ca.utils import spawn_state_nca_3d
 STEPS = 4
 
 ca3d = NCAModel3D()
-
-weights = pickle.load(open("training_data_3d/3dtest4/24000.checkpoint.pkl", "rb"))
+fname = sys.argv[1]
+weights = pickle.load(open(fname, "rb"))
 
 list(ca3d.dmodel.children())[0].weight = nn.Parameter(
     torch.moveaxis(torch.Tensor(weights[0]), (3, 4), (1, 0)))
