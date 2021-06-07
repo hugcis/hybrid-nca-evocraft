@@ -15,6 +15,7 @@ grpcio = "^1.37.1"
 google = "^3.0.0"
 protobuf = "^3.17.0"
 moviepy = "^1.0.3"
+requests = ">=2.20"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
