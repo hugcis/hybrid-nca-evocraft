@@ -7,11 +7,11 @@ This is our submissiosn to the [Minecraft Open-endedness challenge
 
 Our algorithm is based on Neural Cellular Automata (NCA), a CA-based neural
 network model inspired by morphogenesis. We train a NCA to grow different
-patterns from various seeds (or "genomes"). Once the training is done, we load
-the model in Minecraft and have players modify the genomes. They can be
-mutated or merged to create an endless stream of novel growing patterns. The
-resulting patterns depend both on the genome and the growth rules learned by the
-NCA, which can be unpredictable and surprising. 
+patterns from various seeds (or "genomes") in 2 or 3 dimensions. Once the
+training is done, we load the model in Minecraft and have players modify the
+genomes. They can be mutated or merged to create an endless stream of novel
+growing patterns. The resulting patterns depend both on the genome and the
+growth rules learned by the NCA, which can be unpredictable and surprising.
 
 The repository contains link to pre-trained models in 2D and 3D as well as Colab
 notebooks links to train you own NCA. 
@@ -23,9 +23,14 @@ so you only need to do `poetry install` if you have it.
 
 Otherwise `pip install -r requirements.txt` should work too. 
 
-The models are defined in `evo_ca/models.py`.
+Make also sure that you have installed the [Evocraft Python interface to
+Minecraft](https://github.com/real-itu/Evocraft-py) and your Minecraft server is
+started with `java -jar spongevanilla-1.12.2-7.3.0.jar`.
 
-`python run_2d.py`
+The Pytorch models are defined in `evo_ca/models.py`.
+
+To run a 2D model in Minecraft, use `python run_2d.py`. For a 3D version use
+`python run_3d.py`.
 
 ## Model weights
 ### Pre-trained models
@@ -34,8 +39,11 @@ The pre-trained weights are in a zip archive that you can download
 Unzip the archive in the repo root.
 
 ### Train your own
+You can also train your own models with different target patterns in both 2D and
+3D in the Colab notebooks
 
 #### 2D Model
 [Colab link](https://colab.research.google.com/drive/1WEYtcDMm3HNfHHlso_B9SkDU0NivwXbv?usp=sharing)
 
 #### 3D Model
+[Colab link](https://colab.research.google.com/drive/1BDCJYv0245F5hJ4l1xgl-D8qkw8t0jgO?usp=sharing)
