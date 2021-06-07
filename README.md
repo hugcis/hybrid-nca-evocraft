@@ -1,5 +1,7 @@
 # Open-ended creation of hybrid creatures with Neural Cellular Automata
 
+![Hybrids](images/hybrid.png)
+
 This is our submissiosn to the [Minecraft Open-endedness challenge
 2021](https://evocraft.life/) for the Gecco conference.
 
