@@ -8,12 +8,15 @@ This is our submission to the [Minecraft Open-endedness challenge
 ## Description
 
 Our algorithm is based on Neural Cellular Automata (NCA), a CA-based neural
-network model inspired by morphogenesis. We train a NCA to grow different
-patterns from various seeds (or "genomes") in 2 or 3 dimensions. Once the
-training is done, we load the model in Minecraft and have players modify the
-genomes. They can be mutated or merged to create an endless stream of novel
-growing patterns. The resulting patterns depend both on the genome and the
-growth rules learned by the NCA, which can be unpredictable and surprising.
+network model inspired by morphogenesis. We chose to work with cellular
+automata, as we're interested in models where complexity can be spontaneously
+increasing over time, which is a property that traditional models (like neural
+networks) do not have. We train a NCA to grow different patterns from various
+seeds (or "genomes") in 2 or 3 dimensions. Once the training is done, we load
+the model in Minecraft and have players modify the genomes. They can be mutated
+or merged to create an endless stream of novel growing patterns. The resulting
+patterns depend both on the genome and the growth rules learned offline by the
+NCA, which can be unpredictable and surprising.
 
 The repository contains link to pre-trained models in 2D and 3D as well as Colab
 notebooks links to train you own NCA. 
