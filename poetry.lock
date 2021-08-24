@@ -477,7 +477,7 @@ test = ["coverage", "pytest", "pytest-cov", "pytest-mock", "requests", "pytest-t
 
 [[package]]
 name = "jupyterlab"
-version = "3.0.16"
+version = "3.0.17"
 description = "JupyterLab computational environment"
 category = "main"
 optional = false
@@ -1190,7 +1190,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "341f30a7662c0a2ccab537ffd09c0a5f34175d511a45c43f9bb20cefc0ed533e"
+content-hash = "9e8cc7ccd93280422fa6ebe34f7dc57b2946969cdf5c5f6842d18616eb717fcd"
 
 [metadata.files]
 anyio = [
@@ -1460,8 +1460,8 @@ jupyter-server = [
     {file = "jupyter_server-1.8.0.tar.gz", hash = "sha256:8f0c75e0a577536125ad62a442ebb7cf02746f1a69d907e8a273c6225d281237"},
 ]
 jupyterlab = [
-    {file = "jupyterlab-3.0.16-py3-none-any.whl", hash = "sha256:88f6e7580c15cf731d96495fda362e786753e18d1e3e7e735915862efb602a92"},
-    {file = "jupyterlab-3.0.16.tar.gz", hash = "sha256:7ad4fbe1f6d38255869410fd151a8b15692a663ca97c0a8146b3f5c40e275c23"},
+    {file = "jupyterlab-3.0.17-py3-none-any.whl", hash = "sha256:28d303bca26d33c0478ab88f906421e567192af19016abbdadfcab3cfe91a282"},
+    {file = "jupyterlab-3.0.17.tar.gz", hash = "sha256:791ae7fba158ed902afd2c70aed86d9ffd67996f07b2f0494675c81147b3e96e"},
 ]
 jupyterlab-pygments = [
     {file = "jupyterlab_pygments-0.1.2-py2.py3-none-any.whl", hash = "sha256:abfb880fd1561987efaefcb2d2ac75145d2a5d0139b1876d5be806e32f630008"},

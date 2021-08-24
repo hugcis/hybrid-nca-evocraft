@@ -7,7 +7,7 @@ authors = ["hugcis <hmj.cisneros@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 jupyter = "^1.0.0"
-jupyterlab = "^3.0.15"
+jupyterlab = "^3.0.17"
 torch = "^1.8.1"
 numpy = "^1.20.3"
 matplotlib = "^3.4.2"
